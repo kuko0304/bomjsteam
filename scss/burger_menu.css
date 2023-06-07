@@ -1,0 +1,158 @@
+.menu {
+  position: relative;
+  margin-right: -10px;
+  margin-left: 24px;
+  width: 42px;
+  height: 42px;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-close {
+  background-image: url("../img/menu-close.svg");
+}
+
+.menu-open:active,
+.menu-close:active {
+  opacity: 0.8;
+}
+
+.main-menu {
+  position: absolute;
+  border: 2px solid black;
+  width: 160px;
+  height: 144px;
+  padding: 0;
+  top: 0px;
+  right: 0px;
+}
+
+.menu-open + .main-menu {
+  display: none;
+}
+
+.main-menu li {
+  font-size: var(--font-size);
+  list-style: none;
+  color: #eeeeee;
+  margin-bottom: 5px;
+}
+.main-menu li:hover {
+  opacity: 0.7;
+}
+.main-menu li button {
+  padding: 3px;
+  border: 1px solid #eeeeee;
+}
+
+.main-menu ul {
+  background: white;
+  background-size: 140px;
+  height: 210px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.main-menu a {
+  list-style: none;
+  text-decoration: none;
+  color: #eeeeee;
+  margin: 0 auto;
+  display: block;
+  background: transparent;
+}
+
+.main-menu a:active {
+  opacity: 0.8;
+}
+
+.menu-open {
+  background-color: #913175;
+  border: 2px solid black;
+  background-image: url("../img/menu-open-light.svg");
+}
+
+.menu:focus {
+  outline-color: #913175;
+}
+
+.menu-open {
+  background-image: url("../img/menu-open-dark.svg");
+}
+
+.menu-open:focus,
+.menu-open:hover {
+  background-color: #913175;
+  background-image: url("../img/menu-open-dark.svg");
+}
+
+.menu-close {
+  background-color: #913175;
+}
+
+.menu-close:focus,
+.menu-close:hover {
+  background-color: #913175;
+}
+
+.main-menu {
+  background-color: #913175;
+  color: #f2f2f2;
+}
+
+.main-menu a:focus {
+  outline-color: #913175;
+}
+
+.menu {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 42px;
+  height: 42px;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-open {
+  background-color: #913175;
+  border: 2px solid #20262E;
+  background-image: url("../img/menu-open-light.svg");
+}
+
+.menu:focus {
+  outline-color: #913175;
+}
+
+.menu-open {
+  background-image: url("../img/menu-open-dark.svg");
+}
+
+.menu-open:focus, .menu-open:hover {
+  background-color: #913175;
+  background-image: url("../img/menu-open-dark.svg");
+}
+
+.menu-close {
+  background-color: #913175;
+}
+
+.menu-close:focus, .menu-close:hover {
+  background-color: #913175;
+}
+
+.main-menu {
+  background-color: #913175;
+  color: #f2f2f2;
+}
+
+.main-menu a:focus {
+  outline-color: #913175;
+}/*# sourceMappingURL=burger_menu.css.map */

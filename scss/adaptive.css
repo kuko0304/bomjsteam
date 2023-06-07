@@ -1,0 +1,99 @@
+@media (min-width: 800px) and (max-width: 1250px) {
+  .container .header {
+    width: 80%;
+  }
+  .container .header .main-menu {
+    width: 160px;
+    right: 45px;
+  }
+  .container .header .main-menu ul {
+    padding: 10px;
+  }
+  .container .main {
+    width: 80%;
+  }
+  .container .main .nav-sale {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .container .main .nav-sale .nav-sale-img {
+    width: 90%;
+  }
+  .container .main .nav-sale .nav-sale-text {
+    width: 95%;
+  }
+  .container .main .slider-main {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #CD5888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .main .slider-main button {
+    background: none;
+    border: none;
+  }
+  .container .main .slider-main .slider {
+    width: 850px;
+    height: 290px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .container .main .slider-main .slider .slider-line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+  }
+  .container .main .slider-main .slider .slider-line a {
+    text-decoration: none;
+  }
+  .container .main .slider-main .slider .slider-line a .slide {
+    width: 850px;
+    display: flex;
+    border: 2px solid #913175;
+    color: #eeeeee;
+    transition: 0.3s;
+  }
+  .container .main .slider-main .slider .slider-line a .slide img {
+    width: 500px;
+  }
+  .container .main .slider-main .slider .slider-line a .slide .text {
+    width: 850px;
+    padding: 15px 0 0 15px;
+  }
+  .container .main .slider-main .slider .slider-line a .slide .text p {
+    margin-top: 15px;
+  }
+  .container .main .slider-main .slider .slider-line a .slide:hover {
+    border: 4px solid #913180;
+    background-color: #cd5895;
+  }
+  .container .main .game-colection {
+    flex-direction: column;
+  }
+  .container .main .game-colection .nav_blocks1 {
+    width: 100%;
+  }
+  .container .main .game-colection .nav_blocks1 .nav_blocks1-1 {
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  .container .main .game-colection .nav_blocks1 .nav_blocks1-2 {
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  .container .main .game-colection .nav_blocks2 {
+    flex-direction: row;
+  }
+  .container .footer {
+    width: 80%;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

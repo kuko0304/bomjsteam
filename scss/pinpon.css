@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #393646;
+    padding: 30px;
+}
+
+.back{
+    text-decoration: none;
+    color: black;
+    background-color: #eeeeee;
+    padding: 9px 20px 9px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.back:hover{
+    opacity: 0.7;
+}
+
+canvas{
+    background: rgb(151, 151, 151);
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    margin-top: 10%;
+}
+img{
+    display: none;
+}

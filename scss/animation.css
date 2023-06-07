@@ -1,0 +1,40 @@
+.images {
+  opacity: 0;
+  transition: 1.7s;
+}
+.images h2 {
+  margin-bottom: 30px;
+}
+
+.image1 {
+  transform: translate(120%, 0);
+}
+
+.image2 {
+  transform: translate(-120%, 0);
+}
+
+.image3 {
+  transform: translate(120%, 0);
+}
+
+.image4 {
+  transform: translate(-120%, 0);
+}
+
+.image5 {
+  transform: translate(120%, 0);
+}
+
+.image6 {
+  transform: translate(-120%, 0);
+}
+
+.image7 {
+  transform: translate(120%, 0);
+}
+
+.viev_elem {
+  opacity: 1;
+  transform: translate(0, 0);
+}/*# sourceMappingURL=animation.css.map */

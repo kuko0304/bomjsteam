@@ -1,0 +1,120 @@
+@media (min-width:800px) and (max-width:1250px) {
+    .container{
+        .header{
+            width: 80%;
+
+            .main-menu{
+                width: 160px;
+                right: 45px;
+                
+                ul{
+                    padding: 10px;
+                }
+            }
+        }
+
+        .main{
+            width: 80%;
+    
+            .nav-sale{
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                
+                .nav-sale-img{
+                    width: 90%;
+                }
+                .nav-sale-text{
+                    width: 95%;
+                }
+            }
+
+            .slider-main{
+                width: 100%;
+                margin-top: 15px;
+                padding: 15px;
+                border-radius: 5px;
+                background-color: #CD5888;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                button{
+                    background: none;
+                    border: none;
+                }
+    
+                .slider {
+                    width: 850px;
+                    height: 290px;
+                    margin: 20px auto;
+                    overflow: hidden;
+                    border-radius: 5px;
+    
+                    .slider-line {
+                        display: flex;
+                        position: relative;
+                        left: 0;
+                        transition: all ease 1s;
+    
+                        a{
+                            text-decoration: none;
+    
+                            .slide{
+                                width: 850px;
+                                display: flex;
+                                border: 2px solid #913175;
+                                color: #eeeeee;
+                                transition: 0.3s;
+        
+                                img{
+                                    width: 500px;
+                                }
+                                .text{
+                                    width: 850px;
+                                    padding: 15px 0 0 15px;
+        
+                                    p{
+                                        margin-top: 15px;
+                                    }
+                                }
+        
+                                &:hover{
+                                    border: 4px solid #913180;
+                                    background-color: #cd5895;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .game-colection{
+                flex-direction: column;
+
+                .nav_blocks1{
+                    width: 100%;
+
+                    .nav_blocks1-1{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        justify-content: space-around;
+                    }
+                    .nav_blocks1-2{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        justify-content: space-around;
+                    }
+                }
+
+                .nav_blocks2{
+                    flex-direction: row;
+                }
+            }
+        }
+
+        .footer{    
+            width: 80%;
+        }
+    }
+}

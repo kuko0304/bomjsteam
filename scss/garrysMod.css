@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+    width: 1250px;
+    height: 80px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    margin: 0 auto;
+       display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header_blocks{
+ display: flex;
+}
+.header_block1,.header_block2,.header_block3{
+    width: 160px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: #eeeeee;
+}
+.header_block4{
+  width: 160px;
+  margin-bottom: 20px;
+    margin-right: 10px;
+    background: #CD5888;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.container{
+    background-image: url(https://coop-land.ru/uploads/posts/2020-08/1597159483_p1_2797029_fd3a2f3e.jpg);
+    height: 900px;
+   margin: 0;
+   padding: 0;
+    padding: 15px;
+}
+
+.menu {
+    position: relative;
+    margin-right: -10px;
+    margin-left: 24px;
+    width: 42px;
+    height: 42px;
+    font-size: 0;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .menu-close {
+    background-image: url("../img/menu-close.svg");
+  }
+  
+  .menu-open:active,
+  .menu-close:active {
+    opacity: 0.8;
+  }
+  
+  .main-menu {
+    position: absolute;
+    border: 2px solid black;
+ 
+    z-index: 1;
+    width: 150px;
+    height: 100px;
+    padding: 0;
+    top: 42px;
+    right:100px;
+  }
+  .menu-open + .main-menu {
+    display: none;
+  }
+  .main-menu li{
+    list-style: none;
+    color: black;
+  }
+  .main-menu ul {
+    background: #eeeeee;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .main-menu a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 56px 10px 20px;
+  }
+  
+  .main-menu a:active {
+    opacity: 0.8;
+  }
+
+  .menu-open {
+    background-color:#913175 ;
+    border: 2px solid black ;
+    background-image: url("../img/menu-open-light.svg");
+  }
+
+ .menu:focus {
+    outline-color: #913175;
+  }
+  
+ .menu-open {
+
+    background-image: url("../img/menu-open-dark.svg");
+  }
+  
+ .menu-open:focus,
+ .menu-open:hover {
+    background-color: #913175;
+    background-image: url("../img/menu-open-dark.svg");
+  }
+  
+ .menu-close {
+    background-color: #913175;
+  }
+  
+ .menu-close:focus,
+ .menu-close:hover {
+    background-color: #913175;
+  }
+  
+.main-menu {
+    background-color: #913175;
+    color: #f2f2f2;
+  }
+  
+ .main-menu a:focus {
+    outline-color: #913175;
+  }
+  
+.h1_header{
+  font-size: 20px;
+  padding-top: 2px;
+ margin-left: 15px;
+ margin-top: -0;
+ color: #eeeeee;
+}
+.a_header{
+  color: #eeeeee;
+}
+
+.h2_header{
+  font-size: 20px;
+  padding-top: 2px;
+ margin-left: 15px;
+ margin-top: -0;
+}
+.header_block:hover{
+  background: purple;
+}
+nav{
+  background: #913175;
+  width: 1250px;
+  margin: 0 auto;
+}
+.nav_blocks1{
+  display: flex;
+  justify-content: space-around;
+}
+.nav_block2{
+  background: #CD5888;
+  width: 429px;
+  height: 200px;
+}
+.nav_block3{
+  background: #CD5888;
+  width: 429px;
+  height: 200px;
+}
+.nav_blocks2{
+  display: flex;
+  flex-direction: column;
+}
+.nav_block4{
+  background: #CD5888;
+  width: 271px;
+  height: 121px;
+}
+.nav_block5{
+  margin-top: 10px;
+  background: #CD5888;
+  width: 271px;
+  height: 121px;
+}
+.nav_block6{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #CD5888;
+  width: 280px;
+  height: 116px;
+}
+.nav_blocks3{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around ;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.block_general{
+  display: flex;
+  margin: 0 auto;
+}
+.text_game{
+  margin: 0 auto;
+  display: flex;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(0%,rgba(0,0,0,0.4)));
+
+  flex-direction: column;
+  width: 400px;
+  border-radius: 5px; 
+  padding: 5px;
+}
+.data {
+    display: flex
+}
+li{
+    color: #eeeeee;
+    text-decoration: none;
+    list-style: none;
+}
+.blocs{
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 7px;
+    color: #67c1f5;
+    background-color: rgba( 103, 193, 245, 0.2 );
+    box-shadow: none;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    width: 85px;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blocs1{
+  display: inline-block;
+  line-height: 19px;
+  padding: 0 7px;
+  color: #67c1f5;
+  background-color: rgba( 103, 193, 245, 0.2 );
+  box-shadow: none;
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  width: 85px;
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blocs2{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0px;
+
+  color: #67c1f5;
+  background-color: rgba( 103, 193, 245, 0.2 );
+  box-shadow: none;
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  width: 150px;
+  height: 32px;
+
+}
+.blocs3{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0px;
+  color: #67c1f5;
+  background-color: rgba( 103, 193, 245, 0.2 );
+  box-shadow: none;
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  width: 150px;
+  height: 32px;
+
+}
+.blocs4{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 0px;
+  color: #67c1f5;
+  background-color: rgba( 103, 193, 245, 0.2 );
+  box-shadow: none;
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  width: 150px;
+  height: 32px;
+
+}
+.datas{
+  
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(10%,rgba(64,120,152,0.4)), color-stop(100%,rgba(102,192,244,0.4)));
+    display: flex;
+    width: 216;
+    height: 71;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 12px;
+    min-height: 38px;
+    border-radius: 20px 20px;
+}
+.not-yet{
+    font-size: 24px;
+    font-weight: normal;
+    color: #d5d6d8;
+    line-height: 28px;
+    max-height: 54px;
+    overflow: hidden;
+}
+.about_game{
+    background-color: #434953;
+    width: 400px;
+    margin: 0 auto;
+}
+.blocs_img{
+  background: #eeeeee;
+}
+.img_blocs{
+  margin-top: 2px;
+  opacity: 0;
+}
+.img_blocs3{
+  margin-top: 2px;
+  opacity: 0;
+}
+.img_blocs4{
+  margin-top: 2px;
+  opacity: 0;
+}
+.blocs_text1,.blocs_text2,.blocs_text3{
+  color: #67c1f5;
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
+
+
+
+
+@media (max-width:1250px){
+  header{
+    max-width: 93vw;
+    margin: 0;
+  }
+}
